@@ -3,37 +3,62 @@
 <head>
 	<meta charset="UTF-8">
 	<title>✈️Life</title>
-	<script src="https://fb.me/react-15.0.0.js"></script>
-  <script src="https://fb.me/react-dom-15.0.0.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>  
+	<!-- <script src="https://fb.me/react-15.0.0.js"></script> -->
+	<!-- <script src="https://fb.me/react-dom-15.0.0.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>  
+	<script src="https://use.fontawesome.com/aef4afe873.js"></script>
+	<link rel="stylesheet" href="build/css/styles.css">
 </head>
 <body>
-	<div id="insertMe"></div>
+	<div id="headline"></div>
 	
-	<script type="text/babel">
+	<!-- <script type="text/babel">
+		
 		var Project = React.createClass({
 			render: function() {
 				return (
-					<div className="album">album name</div>
+					<div className="square color-9 project">
+						<div className="project__meta">
+							<h3 className="project__title">Pilot Talk II</h3>
+							<p className="project__artist">Curren$y</p>
+							<div class="project__tags">
+								<i className="fa fa-usd"></i>
+							</div>
+						</div>
+					</div>
 				)
 			}
-
 		});
 
-		var Greeting = React.createClass({
-			render: function() {
-				return (
-					<h1>Hola Hovito</h1>
-				)
-			}
-		});
+		ReactDOM.render(<Project/>, document.getElementById('insertHere'));
 
-		ReactDOM.render(
-			<Greeting/>,
-			document.getElementById('insertMe')
-		);
+	</script> -->
 
-	</script>
-	
+	<div class="wrapper">
+		<div id="insertHere"></div>
+		<div class="square color-1"> </div>
+		<div class="square color-2"> </div>
+		<div class="square color-3"></div>
+		<div class="square color-4"> </div>
+		<div class="square color-5"> </div>
+		<div class="square color-6"></div>
+		<div class="square color-7"> </div>
+		<div class="square color-8"> </div>
+		<div class="square color-9"></div>
+		<div class="square color-5"></div>
+		<div class="square color-2"></div>
+		<div class="square color-6"></div>
+		<div class="square color-1"> </div>
+		<div class="square color-2"> </div>
+		<div class="square color-3"></div>
+		<div class="square color-4"> </div>
+		<div class="square color-5"> </div>
+		<div class="square color-7"> </div>
+		<div class="square color-8"> </div>
+		<div class="square color-9"></div>
+	</div>
+
+<script src="build/main.js"></script>	
+
 </body>
 </html>
