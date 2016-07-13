@@ -1,1 +1,12 @@
+# Ignore node packages
 node_modules
+
+# Dont upload the images yet
+img
+
+# Ignore the build folder
+build
+
+# Ignore Style shit
+.sass-cache
+bourbon
